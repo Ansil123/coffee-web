@@ -1,0 +1,180 @@
+/* Default styles */
+
+nav {
+    background-color: burlywood;
+    font-family: 'Black Ops One', cursive;
+    color: burlywood;
+    height: 100px;
+}
+
+#ff1 {
+    color: black;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background: burlywood;
+    z-index: 1;
+}
+
+#h21 {
+    margin-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: 220px;
+}
+
+#h22 {
+    font-size: 100px;
+    text-shadow: 4px 3px 2px 2px;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#SEC {
+    background-color: bisque;
+}
+
+#erk {
+    background-color: bisque;
+}
+
+#h21 {
+    font-family: 'Black Ops One', cursive;
+}
+
+#h23 {
+    font-family: 'Black Ops One', cursive;
+    margin-top: 1px;
+}
+
+#kak {
+    padding: 50px;
+}
+
+img {
+    border-radius: 80px;
+    margin-left: 200px;
+    width: 250px;
+}
+
+#one {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: 'Black Ops One', cursive;
+}
+
+#TWO {
+    margin-top: 10px;
+}
+
+.rowone {
+    background-color: rgb(234, 190, 158);
+    width: 100%;
+    display: flex;
+    padding: 30px;
+}
+
+.rowone img {
+    border-radius: 30px;
+}
+
+section {
+    background-color: burlywood;
+}
+
+#in1 {
+    margin: 10px;
+}
+
+#last {
+    background-color: rgb(85, 35, 35);
+    width: 50%;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 400px;
+}
+
+#lst {
+    color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+#ZZ {
+    background-color: rgb(213, 198, 146);
+}
+
+#IMG2 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#Q1 {
+    margin-left: 100px;
+}
+
+#Q12 {
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+#AAAA {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 70px;
+}
+
+#AAAA:hover {
+    color: azure;
+}
+
+#RR {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Media queries for mobile devices */
+@media only screen and (max-width: 768px) {
+    nav {
+        height: 80px;
+    }
+    
+    #h21 {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    
+    #h22 {
+        font-size: 60px;
+    }
+    
+    img {
+        margin-left: 20px;
+        width: 150px;
+    }
+    
+    #one {
+        margin-left: 20px;
+    }
+    
+    #last {
+        margin-left: 20px;
+        width: 80%;
+    }
+    
+    #Q1 {
+        margin-left: 20px;
+    }
+    
+    #AAAA {
+        margin-left: 20px;
+    }
+}
